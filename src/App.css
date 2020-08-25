@@ -1,0 +1,114 @@
+body {
+  background-color: black;
+}
+
+.DashboardContainer {
+  text-align: center;
+}
+
+.DashboardContainer-header {
+  background: #231821; /* fallback for old browsers */
+  background: linear-gradient(to right, #1a181b, #a717cc);
+  padding: 1px;
+  color: white;
+}
+
+.DashboardContainer-title {
+  font-size: 1.5em;
+}
+
+.DashboardContainer-intro {
+  font-size: large;
+  color: white;
+}
+
+.coinTab {
+  width: 100%;
+  height: 100%;
+}
+
+.coinPanel {
+  display: flex;
+  height: 100px;
+  padding: 10px;
+  background: #1a181b;
+  border-color: #a717cc;
+  border-style: outset;
+  border-radius: 10px;
+  margin-top: 5px;
+  border-width: 1px;
+}
+
+.coinAvatar {
+  width: 80px;
+  height: 75px;
+  border: outset;
+  padding: 10px;
+  margin-left: 5px;
+  border-color: transparent;
+}
+
+.img {
+  object-fit: contain;
+  width: 100%; /* or any custom size */
+  height: 100%;
+}
+
+.lab {
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.chartCointainer {
+  border-color: transparent;
+  border-style: outset;
+  width: 180px;
+  margin-left: 10px;
+}
+
+.headersContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 40px;
+  padding: 10px;
+  border-color: transparent;
+}
+
+.headersContainer > div {
+  border-color: transparent;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.coinNameLabel {
+  margin-left: 150px;
+  width: 100px;
+}
+
+.coinSymbolLabel {
+  margin-left: 80px;
+  width: 100px;
+}
+
+.coinPriceLabel {
+  margin-left: 70px;
+  width: 100px;
+}
+
+.Change24Label {
+ margin-left: 65px;
+ width: 120px;
+}
+
+.MarketCap {
+  margin-left: 75px;
+}
+
+.ChartLabel {
+  margin-left: 110px;
+}
