@@ -1,7 +1,7 @@
 {
-  "name": "Crypto Dashboard",
-  "description": "A Crypto Dashboard that displays crucial crypto data",
-  "repository": "https://github.com/SagarBehara13/community-wallet.git",
-  "logo": "https://node-js-sample.herokuapp.com/node.png",
-  "keywords": ["node", "express", "static", "coingecko", "crypto", "api"]
+  "buildpacks": [
+    {
+      "url": "mars/create-react-app"
+    }
+  ]
 }
